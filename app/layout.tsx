@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tam-nguyen.ch"),
@@ -44,6 +45,7 @@ export default function RootLayout({
         <footer className="footer">
           © {new Date().getFullYear()} Tam Nguyen · Zürich
         </footer>
+        <Analytics />
       </body>
     </html>
   );
