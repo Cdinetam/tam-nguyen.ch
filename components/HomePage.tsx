@@ -18,6 +18,23 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
         <p key={paragraph.slice(0, 24)}>{paragraph}</p>
       ))}
 
+      <p>
+        {copy.tavyroProductBefore}
+        <a
+          className="text-link"
+          href="https://www.tavyro.ch/de/executive-intelligence"
+          target="_blank"
+          rel="noreferrer"
+        >
+          TaVyro Executive Intelligence® (TEI®)
+        </a>
+        {copy.tavyroProductMiddle}
+        <a className="text-link" href="https://www.tavyro.ch/de/trust-room" target="_blank" rel="noreferrer">
+          Trust Room
+        </a>
+        {copy.tavyroProductAfter}
+      </p>
+
       <div className="tavyro-mention">
         <a
           className="tavyro-logo-link"
@@ -73,9 +90,6 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
         <p className="role-title">{copy.tavyroOrg}</p>
         <p className="role-role">{copy.tavyroRole}</p>
         <p>{copy.tavyroAdvice}</p>
-        <p>
-          {copy.tavyroProductBefore}<a className="text-link" href="https://www.tavyro.ch/de/executive-intelligence" target="_blank" rel="noreferrer">TaVyro Executive Intelligence® (TEI®)</a>{copy.tavyroProductMiddle}<a className="text-link" href="https://www.tavyro.ch/de/trust-room" target="_blank" rel="noreferrer">Trust Room</a>{copy.tavyroProductAfter}
-        </p>
         <p>{copy.tavyroMandate}</p>
       </div>
 
