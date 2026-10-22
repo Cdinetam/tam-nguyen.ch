@@ -28,8 +28,7 @@ export type HomeCopy = {
   swizzOrg: string;
   swizzRole: string;
   swizzBody: string;
-  chroTitle: string;
-  roles: { dates: string; org: string; role: string; body: string }[];
+  roles: { dates: string; org: string; orgNote?: string; role: string; body: string }[];
   earlier: string;
   education: string;
   degrees: string[];
@@ -76,11 +75,11 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     swizzRole: "Founder & Managing Partner",
     swizzBody:
       "Aufbau und Führung eines China-Go-to-Market und digitalen Vertriebs für Schweizer KMU, einschliesslich WeChat als Kommunikations- und zahlungsfähiger Vertriebskanal.",
-    chroTitle: "CHRO und Head of HR",
     roles: [
       {
         dates: "08.2018 – 10.2024",
         org: "WinGD",
+        orgNote: "(ehemals Sulzer Diesel)",
         role: "CHRO, Mitglied der Geschäftsleitung",
         body: "Gesamtverantwortung für globales HR, Quality Management, EQHS und Facility Management. Sparringpartner des CEO über Europa, die VAE und Asien, mit Board-Mandaten bei WinGD China und WinGD Korea. Einführung von HRIS, globaler Job Architecture und Vergütungssystemen, Kulturtransformation sowie HR-Governance gegenüber Verwaltungsrat und internationalem Eigentümer.",
       },
@@ -148,11 +147,11 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     swizzRole: "Founder & Managing Partner",
     swizzBody:
       "Build-up and management of a China go-to-market and digital commerce setup for Swiss SMEs, including WeChat as a communication and payment-enabled sales channel.",
-    chroTitle: "CHRO and Head of HR",
     roles: [
       {
         dates: "08.2018 – 10.2024",
         org: "WinGD",
+        orgNote: "(formerly Sulzer Diesel)",
         role: "CHRO, Member of the Executive Management",
         body: "Overall responsibility for global HR, quality management, EQHS and facility management. Sparring partner to the CEO across Europe, the UAE and Asia, with board mandates at WinGD China and WinGD Korea. Introduction of an HRIS, a global job architecture and compensation systems, cultural transformation, and HR governance towards the board of directors and the international owner.",
       },
@@ -220,11 +219,11 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     swizzRole: "Founder & Managing Partner",
     swizzBody:
       "Mise en place et direction d'une entrée sur le marché chinois et d'un dispositif de commerce digital pour des PME suisses, y compris WeChat comme canal de vente permettant la communication et le paiement.",
-    chroTitle: "CHRO et Head of HR",
     roles: [
       {
         dates: "08.2018 – 10.2024",
         org: "WinGD",
+        orgNote: "(anciennement Sulzer Diesel)",
         role: "CHRO, membre de la direction générale",
         body: "Responsabilité globale des RH, du quality management, de l'EQHS et du facility management. Sparring partner du CEO pour l'Europe, les Émirats arabes unis et l'Asie, avec des mandats au board de WinGD China et de WinGD Korea. Introduction d'un HRIS, d'une job architecture globale et de systèmes de rémunération, transformation culturelle ainsi que gouvernance RH vis-à-vis du conseil d'administration et du propriétaire international.",
       },

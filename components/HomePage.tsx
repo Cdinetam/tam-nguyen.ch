@@ -86,11 +86,16 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
         <p>{copy.swizzBody}</p>
       </div>
 
-      <p className="role-title">{copy.chroTitle}</p>
       {copy.roles.map((role) => (
         <div className="role" key={role.dates + role.org}>
           <p className="role-meta">{role.dates}</p>
-          <p className="role-title">{role.org}</p>
+          {role.orgNote ? (
+            <p className="role-org">
+              <strong className="role-title">{role.org}</strong> {role.orgNote}
+            </p>
+          ) : (
+            <p className="role-title">{role.org}</p>
+          )}
           <p className="role-role">{role.role}</p>
           <p>{role.body}</p>
         </div>

@@ -199,6 +199,15 @@ h3 {
   margin: 2px 0 0;
 }
 
+.role-org {
+  margin: 2px 0 0;
+}
+
+.role-org .role-title {
+  margin: 0;
+  font-weight: 600;
+}
+
 .role-role {
   margin: 0 0 8px;
 }
