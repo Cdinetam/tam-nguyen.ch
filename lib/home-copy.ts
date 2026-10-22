@@ -51,9 +51,9 @@ export const homeCopy: Record<Lang, HomeCopy> = {
       "Mit über 20 Jahren Erfahrung im Human Resources Management und mehrjähriger Verantwortung auf C-Level verbindet er strategische Klarheit mit operativer Umsetzungskompetenz. Als CHRO war er Mitglied der Geschäftsleitung in international tätigen Organisationen mit Standorten in Europa und Asien, einschliesslich Board-Exposure in China und Südkorea. Seine Verantwortung umfasste Organisationsdesign, HR-Governance, Leadership-Entwicklung sowie komplexe arbeitsrechtliche und compliance-relevante Fragestellungen.",
       "Er kombiniert klassische CHRO-Erfahrung mit datenbasierter Analyse und dem verantwortungsvollen Einsatz digitaler und KI-gestützter Instrumente. Innerhalb kurzer Zeit schafft er Transparenz über Reifegrad, Risiken und Prioritäten einer HR-Organisation und verdichtet diese zu belastbaren Entscheidungsgrundlagen für Geschäftsleitungen und Verwaltungsräte. Im Zentrum stehen wirksame People-Strategie, klare Entscheidungsarchitektur und nachhaltige Organisationsentwicklung.",
     ],
-    engagementBefore: "Engagements erfolgen je nach Bedarf mandatbasiert über TaVyro GmbH (",
+    engagementBefore: "Engagements erfolgen je nach Bedarf mandatbasiert über ",
     engagementAfter:
-      ") oder in Festanstellung. Tam Nguyen arbeitet sich gezielt und strukturiert in Unternehmen ein, integriert sich schnell in Kultur und Führungsstrukturen und übernimmt Verantwortung in Analyse, Entscheidungsfindung und Umsetzung. Er verbindet strategische People Führung mit operativer Steuerung, schafft Alignment im Top Team und liefert messbare Resultate in Governance, Organisationsdesign, Führung und HR Transformation.",
+      " oder in Festanstellung. Tam Nguyen arbeitet sich gezielt und strukturiert in Unternehmen ein, integriert sich schnell in Kultur und Führungsstrukturen und übernimmt Verantwortung in Analyse, Entscheidungsfindung und Umsetzung. Er verbindet strategische People Führung mit operativer Steuerung, schafft Alignment im Top Team und liefert messbare Resultate in Governance, Organisationsdesign, Führung und HR Transformation.",
     experience: "Berufserfahrung",
     tavyroDates: "01.2026 – heute",
     tavyroOrg: "TaVyro GmbH",
@@ -61,7 +61,7 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroServices: "Externe HR-Leitung für KMU",
     tavyroHomeUrl: "https://www.tavyro.ch/de",
     tavyroServicesUrl: "https://tavyro.ch/de/externe-hr-leitung-kmu#leistungen",
-    tavyroMentionUrl: "https://www.tavyro.ch",
+    tavyroMentionUrl: "https://www.tavyro.ch/de",
     tavyroAdvice:
       "Beratung von CEOs und Geschäftsleitungen zu People-Strategie, Organisationsdesign, Transformation, HR-Technologie und KI.",
     tavyroProductBefore: "Tam Nguyen entwickelte ",
@@ -123,9 +123,9 @@ export const homeCopy: Record<Lang, HomeCopy> = {
       "With more than 20 years of experience in human resources management and several years of responsibility at C-level, he combines strategic clarity with the ability to implement. As CHRO he was a member of the executive management of internationally active organisations with sites in Europe and Asia, including board exposure in China and South Korea. His responsibility covered organisational design, HR governance, leadership development and complex employment-law and compliance matters.",
       "He combines classic CHRO experience with data-based analysis and the responsible use of digital and AI-enabled instruments. Within a short time he creates transparency on the maturity, risks and priorities of an HR organisation and condenses this into a sound basis for decisions by executive management and boards. The focus is an effective people strategy, a clear decision architecture and sustainable organisational development.",
     ],
-    engagementBefore: "Engagements are, as needed, mandate-based through TaVyro GmbH (",
+    engagementBefore: "Engagements are, as needed, mandate-based through ",
     engagementAfter:
-      ") or in permanent employment. Tam Nguyen works his way into a company in a focused and structured manner, integrates quickly into its culture and leadership structures and takes responsibility for analysis, decision-making and implementation. He combines strategic people leadership with operational steering, creates alignment in the top team and delivers measurable results in governance, organisational design, leadership and HR transformation.",
+      " or in permanent employment. Tam Nguyen works his way into a company in a focused and structured manner, integrates quickly into its culture and leadership structures and takes responsibility for analysis, decision-making and implementation. He combines strategic people leadership with operational steering, creates alignment in the top team and delivers measurable results in governance, organisational design, leadership and HR transformation.",
     experience: "Professional experience",
     tavyroDates: "01.2026 – present",
     tavyroOrg: "TaVyro GmbH",
@@ -133,7 +133,7 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroServices: "External HR leadership for SMEs",
     tavyroHomeUrl: "https://www.tavyro.ch/en",
     tavyroServicesUrl: "https://www.tavyro.ch/en",
-    tavyroMentionUrl: "https://www.tavyro.ch/en",
+    tavyroMentionUrl: "https://www.tavyro.ch/EN",
     tavyroAdvice:
       "Advice to CEOs and leadership teams on people strategy, organisational design, transformation, HR technology and AI.",
     tavyroProductBefore: "Tam Nguyen developed ",
@@ -195,9 +195,9 @@ export const homeCopy: Record<Lang, HomeCopy> = {
       "Fort de plus de 20 ans d'expérience en gestion des ressources humaines et de plusieurs années de responsabilité au niveau C-level, il allie clarté stratégique et compétence de mise en œuvre. En tant que CHRO, il a été membre de la direction générale d'organisations actives à l'international, avec des sites en Europe et en Asie, y compris une exposition au conseil en Chine et en Corée du Sud. Sa responsabilité couvrait le design organisationnel, la gouvernance RH, le développement du leadership ainsi que des questions complexes de droit du travail et de conformité.",
       "Il associe une expérience classique de CHRO à l'analyse fondée sur les données et à l'usage responsable d'instruments numériques et appuyés par l'IA. En peu de temps, il crée de la transparence sur le degré de maturité, les risques et les priorités d'une organisation RH et les condense en bases de décision solides pour les directions et les conseils d'administration. Au centre se trouvent une people strategy efficace, une architecture de décision claire et un développement organisationnel durable.",
     ],
-    engagementBefore: "Les mandats se font, selon le besoin, via TaVyro GmbH (",
+    engagementBefore: "Les mandats se font, selon le besoin, via ",
     engagementAfter:
-      ") ou en emploi fixe. Tam Nguyen entre dans l'entreprise de manière ciblée et structurée, s'intègre rapidement à la culture et aux structures de direction et assume la responsabilité de l'analyse, de la décision et de la mise en œuvre. Il relie le people leadership stratégique au pilotage opérationnel, crée l'alignement au sein du top team et livre des résultats mesurables en gouvernance, en design organisationnel, en leadership et en transformation RH.",
+      " ou en emploi fixe. Tam Nguyen entre dans l'entreprise de manière ciblée et structurée, s'intègre rapidement à la culture et aux structures de direction et assume la responsabilité de l'analyse, de la décision et de la mise en œuvre. Il relie le people leadership stratégique au pilotage opérationnel, crée l'alignement au sein du top team et livre des résultats mesurables en gouvernance, en design organisationnel, en leadership et en transformation RH.",
     experience: "Expérience professionnelle",
     tavyroDates: "01.2026 – aujourd'hui",
     tavyroOrg: "TaVyro GmbH",
@@ -205,7 +205,7 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroServices: "Direction RH externe pour PME",
     tavyroHomeUrl: "https://www.tavyro.ch/en",
     tavyroServicesUrl: "https://www.tavyro.ch/en",
-    tavyroMentionUrl: "https://www.tavyro.ch/en",
+    tavyroMentionUrl: "https://www.tavyro.ch/EN",
     tavyroAdvice:
       "Conseil aux CEO et aux directions sur la stratégie People, le design organisationnel, la transformation, la technologie RH et l'IA.",
     tavyroProductBefore: "Tam Nguyen a développé ",
