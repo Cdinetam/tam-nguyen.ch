@@ -1,0 +1,257 @@
+:root {
+  --bg: #0e1116;
+  --card: #161a22;
+  --text: #f4f6f8;
+  --muted: #aab2bd;
+  --accent: #c6a85b;
+  --line: #222834;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.brand span {
+  color: var(--muted);
+  margin-left: 6px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.links a:first-child {
+  margin-left: 0;
+}
+
+.links a:hover {
+  color: var(--accent);
+}
+
+.lang {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+}
+
+.lang a {
+  color: var(--muted);
+  text-decoration: none;
+  margin: 0;
+}
+
+.lang a:hover,
+.lang a.active {
+  color: var(--accent);
+}
+
+.lang a.active {
+  font-weight: 600;
+}
+
+.lang .sep {
+  color: #5c6570;
+  margin: 0 7px;
+}
+
+.card {
+  background: var(--card);
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-weight: 400;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.intro-head {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+
+.intro-head h1 {
+  margin-top: 0;
+}
+
+.intro-head h2 {
+  margin-bottom: 0;
+}
+
+.portrait {
+  width: 160px;
+  height: 210px;
+  object-fit: cover;
+  object-position: center 18%;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.tavyro-mention {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.tavyro-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.tavyro-logo-link {
+  flex: 0 0 200px;
+  line-height: 0;
+}
+
+.quiet-links {
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.quiet-links a {
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.quiet-links a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.role {
+  margin-top: 22px;
+}
+
+.role-meta {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.role-title {
+  font-weight: 600;
+  margin: 2px 0 0;
+}
+
+.role-role {
+  margin: 0 0 8px;
+}
+
+.plain-lines p {
+  margin: 0 0 6px;
+}
+
+.role li {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--line);
+  margin: 30px 0;
+}
+
+.cta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0 28px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.footer-lang {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.footer-lang a {
+  color: var(--muted);
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-lang a:hover,
+.footer-lang a.active {
+  color: var(--accent);
+}
+
+.footer-lang a.active {
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .intro-head,
+  .tavyro-mention {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card {
+    padding: 24px;
+  }
+}

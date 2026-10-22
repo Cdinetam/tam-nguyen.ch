@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from "next/link";
+import { HtmlLang, SiteFooter, SiteHeader } from "../components/SiteChrome";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tam-nguyen.ch"),
@@ -27,23 +27,10 @@ export default function RootLayout({
   return (
     <html lang="de-CH">
       <body>
-        <header className="header">
-          <div className="container nav">
-            <Link href="/" className="brand">
-              Tam Nguyen <span>Zürich</span>
-            </Link>
-            <div className="links">
-              <Link href="/kontakt">Kontakt</Link>
-              <Link href="/impressum">Impressum</Link>
-            </div>
-          </div>
-        </header>
-
+        <HtmlLang />
+        <SiteHeader />
         <main className="container content">{children}</main>
-
-        <footer className="footer">
-          © {new Date().getFullYear()} Tam Nguyen · Zürich
-        </footer>
+        <SiteFooter />
       </body>
     </html>
   );
