@@ -45,6 +45,16 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
             <a href="https://fractional-chro.ch" target="_blank" rel="noreferrer">
               fractional-chro.ch
             </a>
+            <a
+              href="https://www.tavyro.ch/de/executive-intelligence"
+              target="_blank"
+              rel="noreferrer"
+            >
+              TaVyro Executive Intelligence®
+            </a>
+            <a href="https://www.tavyro.ch/de/trust-room" target="_blank" rel="noreferrer">
+              Trust Room
+            </a>
           </p>
         </div>
       </div>
@@ -57,7 +67,29 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
         <p className="role-meta">{copy.tavyroDates}</p>
         <p className="role-title">{copy.tavyroOrg}</p>
         <p className="role-role">{copy.tavyroRole}</p>
-        <p>{copy.tavyroBody}</p>
+        <p>{copy.tavyroAdvice}</p>
+        <p>
+          {copy.tavyroProductBefore}
+          <a
+            className="text-link"
+            href="https://www.tavyro.ch/de/executive-intelligence"
+            target="_blank"
+            rel="noreferrer"
+          >
+            TaVyro Executive Intelligence® (TEI®)
+          </a>
+          {copy.tavyroProductMiddle}
+          <a
+            className="text-link"
+            href="https://www.tavyro.ch/de/trust-room"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Trust Room
+          </a>
+          {copy.tavyroProductAfter}
+        </p>
+        <p>{copy.tavyroMandate}</p>
       </div>
 
       <div className="role">

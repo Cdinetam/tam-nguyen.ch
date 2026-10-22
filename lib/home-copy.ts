@@ -19,7 +19,11 @@ export type HomeCopy = {
   tavyroHomeUrl: string;
   tavyroServicesUrl: string;
   tavyroMentionUrl: string;
-  tavyroBody: string;
+  tavyroAdvice: string;
+  tavyroProductBefore: string;
+  tavyroProductMiddle: string;
+  tavyroProductAfter: string;
+  tavyroMandate: string;
   swizzDates: string;
   swizzOrg: string;
   swizzRole: string;
@@ -58,8 +62,15 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroHomeUrl: "https://www.tavyro.ch/de",
     tavyroServicesUrl: "https://tavyro.ch/de/externe-hr-leitung-kmu#leistungen",
     tavyroMentionUrl: "https://www.tavyro.ch",
-    tavyroBody:
-      "Beratung von CEOs und Geschäftsleitungen zu People-Strategie, Organisationsdesign, Transformation, HR-Technologie und KI. Entwicklung einer KI-gestützten Entscheidungsunterstützung und Organisationsdiagnostik für die Führungspraxis. Mandate in Technologie und digitalen Finanzdienstleistungen, Sozialversicherung und sozialen Institutionen sowie Gastronomie und Start-ups.",
+    tavyroAdvice:
+      "Beratung von CEOs und Geschäftsleitungen zu People-Strategie, Organisationsdesign, Transformation, HR-Technologie und KI.",
+    tavyroProductBefore: "Tam Nguyen entwickelte ",
+    tavyroProductMiddle:
+      ", ein KI-gestütztes Multi-Agent-System zur bereichsübergreifenden Organisationsdiagnostik. Es verdichtet Signale zu einer fundierten Einschätzung und priorisierten Handlungsfeldern. Ergänzend entwickelte er den ",
+    tavyroProductAfter:
+      ", einen geschützten digitalen Reflexionsraum für sensible Führungs- und Organisationsfragen.",
+    tavyroMandate:
+      "Mandate in Technologie und digitalen Finanzdienstleistungen, Sozialversicherung und sozialen Institutionen sowie Gastronomie und Start-ups.",
     swizzDates: "11.2024 – 12.2025",
     swizzOrg: "Swizzbrand GmbH, Zürich & Shenzhen",
     swizzRole: "Founder & Managing Partner",
@@ -123,8 +134,15 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroHomeUrl: "https://www.tavyro.ch/en",
     tavyroServicesUrl: "https://www.tavyro.ch/en",
     tavyroMentionUrl: "https://www.tavyro.ch/en",
-    tavyroBody:
-      "Advising CEOs and executive teams on people strategy, organisational design, transformation, HR technology and AI. Development of an AI-enabled decision-support and organisational diagnostic for leadership practice. Mandates in technology and digital financial services, social insurance and social institutions, as well as gastronomy and start-ups.",
+    tavyroAdvice:
+      "Advice to CEOs and leadership teams on people strategy, organisational design, transformation, HR technology and AI.",
+    tavyroProductBefore: "Tam Nguyen developed ",
+    tavyroProductMiddle:
+      ", an AI-enabled multi-agent system for cross-functional organisational diagnostics. It condenses signals into a substantiated assessment and prioritised fields of action. In addition, he developed ",
+    tavyroProductAfter:
+      ", a protected digital space for reflection on sensitive leadership and organisational questions.",
+    tavyroMandate:
+      "Mandates in technology and digital financial services, social insurance and social institutions, as well as gastronomy and start-ups.",
     swizzDates: "11.2024 – 12.2025",
     swizzOrg: "Swizzbrand GmbH, Zurich & Shenzhen",
     swizzRole: "Founder & Managing Partner",
@@ -188,8 +206,15 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroHomeUrl: "https://www.tavyro.ch/en",
     tavyroServicesUrl: "https://www.tavyro.ch/en",
     tavyroMentionUrl: "https://www.tavyro.ch/en",
-    tavyroBody:
-      "Conseil aux CEO et aux directions sur la people strategy, le design organisationnel, la transformation, la technologie RH et l'IA. Développement d'une aide à la décision et d'un diagnostic organisationnel appuyés par l'IA pour la pratique du leadership. Mandats dans la technologie et les services financiers numériques, l'assurance sociale et les institutions sociales ainsi que la gastronomie et les start-up.",
+    tavyroAdvice:
+      "Conseil aux CEO et aux directions sur la stratégie People, le design organisationnel, la transformation, la technologie RH et l'IA.",
+    tavyroProductBefore: "Tam Nguyen a développé ",
+    tavyroProductMiddle:
+      ", un système multi-agents assisté par l'IA pour un diagnostic organisationnel transversal. Il condense les signaux en une appréciation fondée et en champs d'action priorisés. En complément, il a développé ",
+    tavyroProductAfter:
+      ", un espace numérique protégé de réflexion pour les questions sensibles de direction et d'organisation.",
+    tavyroMandate:
+      "Mandats dans la technologie et les services financiers numériques, l'assurance sociale et les institutions sociales ainsi que la gastronomie et les start-up.",
     swizzDates: "11.2024 – 12.2025",
     swizzOrg: "Swizzbrand GmbH, Zurich & Shenzhen",
     swizzRole: "Founder & Managing Partner",
