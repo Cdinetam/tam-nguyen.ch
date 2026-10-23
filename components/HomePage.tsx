@@ -58,14 +58,8 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
             {copy.engagementAfter}
           </p>
           <p className="quiet-links">
-            <a href={copy.tavyroServicesUrl} target="_blank" rel="noreferrer">
-              {copy.tavyroServices}
-            </a>
             <a href={copy.tavyroHomeUrl} target="_blank" rel="noreferrer">
               TaVyro
-            </a>
-            <a href="https://fractional-chro.ch" target="_blank" rel="noreferrer">
-              fractional-chro.ch
             </a>
             <a
               href="https://www.tavyro.ch/de/executive-intelligence"
@@ -76,6 +70,12 @@ export default function HomePage({ copy }: { copy: HomeCopy }) {
             </a>
             <a href="https://www.tavyro.ch/de/trust-room" target="_blank" rel="noreferrer">
               Trust Room
+            </a>
+            <a href={copy.tavyroServicesUrl} target="_blank" rel="noreferrer">
+              {copy.tavyroServices}
+            </a>
+            <a href="https://fractional-chro.ch" target="_blank" rel="noreferrer">
+              fractional-chro.ch
             </a>
           </p>
         </div>
