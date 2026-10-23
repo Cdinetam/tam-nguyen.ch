@@ -131,7 +131,7 @@ export const homeCopy: Record<Lang, HomeCopy> = {
     tavyroRole: "Founder & Managing Partner, Fractional CHRO",
     tavyroServices: "External HR leadership for SMEs",
     tavyroHomeUrl: "https://www.tavyro.ch/en",
-    tavyroServicesUrl: "https://www.tavyro.ch/en",
+    tavyroServicesUrl: "https://tavyro.ch/en/external-hr-leadership-sme#leistungen",
     tavyroMentionUrl: "https://www.tavyro.ch/EN",
     tavyroAdvice:
       "Advice to CEOs and leadership teams on people strategy, organisational design, transformation, HR technology and AI.",
